@@ -2,19 +2,18 @@ console.log("¡Estoy listo!");
 
 // Iteration 1: Names and Input
 
-let hacker1 = "John";
+
+let hacker1 = "John"; // Conductor
+let hacker2 = "Pedro"; // Navegante
 
 console.log(`El nombre del conductor es ${hacker1}`);
-
-let hacker2 = "Pedro";
-
 console.log(`El nombre del navegante es ${hacker2}`);
 
 // Iteration 2: Conditionals
 
 if (hacker1.length > hacker2.length) {
   console.log(
-    `El conductor tiene el nombre más largo, tiene ${hacker1.length}`
+    `El conductor tiene el nombre más largo, tiene ${hacker1.length} caracteres.`
   );
 
   // code to execute if condition1 is true
